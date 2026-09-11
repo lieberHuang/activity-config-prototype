@@ -1,12 +1,22 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="refresh" content="0; url=outputs/activity-config-prototype.html" />
-  <title>活动配置中心</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>健康成长 · 运营工作台</title>
+  <style>
+    :root{font:16px/1.5 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:#1e2944;background:#f4f7fc}*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px}.wrap{width:min(760px,100%)}.brand{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:34px;color:#526382}.mark{width:43px;height:43px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,#3867ec,#7697ff);color:#fff;font-size:24px;box-shadow:0 8px 20px #3867ec2d}.title{text-align:center;font-size:30px;letter-spacing:.2px;margin:0}.sub{text-align:center;color:#78849b;margin:11px 0 31px}.cards{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid #e5eaf2;border-radius:15px;padding:26px;box-shadow:0 8px 28px #20365e0b;transition:transform .16s,box-shadow .16s}.card:hover{transform:translateY(-3px);box-shadow:0 13px 34px #20365e17}.icon{display:grid;place-items:center;width:43px;height:43px;border-radius:11px;background:#eef3ff;color:#3768e9;font-size:20px}.card h2{font-size:18px;margin:17px 0 8px}.card p{font-size:14px;color:#7b879d;margin:0}.go{display:block;color:#3867e9;font-size:14px;font-weight:600;margin-top:20px}@media(max-width:600px){.cards{grid-template-columns:1fr}.title{font-size:26px}}
+  </style>
 </head>
 <body>
-  <p>正在打开活动配置原型… <a href="outputs/activity-config-prototype.html">如未自动跳转，请点击这里</a>。</p>
+  <main class="wrap">
+    <div class="brand"><span class="mark">✦</span><span>健康成长 · 运营工作台</span></div>
+    <h1 class="title">配置管理入口</h1>
+    <p class="sub">选择需要管理的配置模块</p>
+    <div class="cards">
+      <a class="card" href="weekly-tasks.html"><span class="icon">◫</span><h2>周任务配置</h2><p>管理每周任务、积分、阅读文章与循环规则。</p><span class="go">进入配置 →</span></a>
+      <a class="card" href="activity-configuration.html"><span class="icon">▣</span><h2>活动配置</h2><p>管理活动时间、参与条件、名额与上架状态。</p><span class="go">进入配置 →</span></a>
+    </div>
+  </main>
 </body>
 </html>
